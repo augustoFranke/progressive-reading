@@ -1,0 +1,25 @@
+{
+  "name": "progressive-reading",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "tsx src/cli.ts",
+    "inspect": "tsx src/inspectCli.ts",
+    "generate": "tsx src/generateCli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.18.0",
+    "fast-xml-parser": "^5.2.5",
+    "fflate": "^0.8.2",
+    "parse5": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}
