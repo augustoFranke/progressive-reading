@@ -1,0 +1,21 @@
+[Unit]
+# Tailscale persists `serve --bg` config in tailscaled.state and restores it on start.
+# This unit does not replace that: it reconciles the mapping at every boot so the phone's
+# entry point cannot silently go missing if that state is ever lost, reset, or rewritten by
+# another `tailscale serve` invocation. The container is useless to the app without it.
+Description=Ensure Tailscale Serve exposes progressive-reading on :8446
+Documentation=https://github.com/augustoFranke/progressive-reading
+After=tailscaled.service docker.service
+Wants=tailscaled.service docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+# tailscaled is "active" before the tailnet is usable; serve config set too early is lost.
+ExecStartPre=/bin/sh -c 'for i in $(seq 1 60); do /usr/bin/tailscale status >/dev/null 2>&1 && exit 0; sleep 2; done; exit 1'
+# Idempotent, and scoped to :8446 only — the other serve mappings on this host
+# (5432, 6379, 443, 8443, 8444, 8445) are left untouched.
+ExecStart=/usr/bin/tailscale serve --bg --https=8446 http://127.0.0.1:3010
+
+[Install]
+WantedBy=multi-user.target
