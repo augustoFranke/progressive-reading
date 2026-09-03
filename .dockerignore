@@ -1,0 +1,10 @@
+.cache
+.git
+.gitignore
+.DS_Store
+*.epub
+coverage
+deploy
+ios
+node_modules
+tests

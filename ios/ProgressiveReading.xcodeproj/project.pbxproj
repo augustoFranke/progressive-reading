@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0151BD0C7DACAAF2D72ED652 /* WidgetCardPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E104231F9522361FB3C44 /* WidgetCardPayload.swift */; };
+		059BC9541AC7831D162D6162 /* CardFitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B351B73997E04BA91C7B3313 /* CardFitter.swift */; };
+		1D8915BA1D4F549B0DD16E42 /* ReadingWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E5CCD00B64331394970643E0 /* ReadingWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DCFA4B8978F78C0B478F8D9 /* RewindCardIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83077B0351EFD4FACDE37489 /* RewindCardIntent.swift */; };
+		43A4088DB89CB920A9EAC5AC /* CardFitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B351B73997E04BA91C7B3313 /* CardFitter.swift */; };
+		655AB463AF4553561CAE8515 /* AdvanceCardIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472CC645D7AA7AA68E2013E0 /* AdvanceCardIntent.swift */; };
+		68B2DC3E37D4FA29A3E02E7D /* WidgetCardPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E104231F9522361FB3C44 /* WidgetCardPayload.swift */; };
+		6DDFEE9B385044F9CDCEC727 /* SelectBookIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47903C2043A416C40E8C095E /* SelectBookIntent.swift */; };
+		6E489B65C5C180BEFFA02010 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FA4F513F8C4831E6E2C37 /* ContentView.swift */; };
+		7334B7E91BE657278FB6DA8F /* ReaderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2BEB7237DAABFAF0355915 /* ReaderCardView.swift */; };
+		73E51BE3DFD90AFB2E4AE4A8 /* WidgetSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889E31F6A594B6BE99BC11F /* WidgetSync.swift */; };
+		8C99DBA3FD14A061C3BD72FE /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BE7AA0E70DA712138FBE /* BookEntity.swift */; };
+		B3007590C6F905E6EA66F83F /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BE7AA0E70DA712138FBE /* BookEntity.swift */; };
+		BC2670C79A24528EC8842FCA /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = A336E130976D334D6604CC4A /* AppIcon.icon */; };
+		C4E4E92965F64DE3F9918536 /* ReadingAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BE851BD85858457EB3E53 /* ReadingAPIService.swift */; };
+		D7221DC7644CB459BCA3269C /* ReadingAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BE851BD85858457EB3E53 /* ReadingAPIService.swift */; };
+		D7460F63C1536A27C7ADE967 /* ProgressiveReadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6EB93ABD31A099CC9900A /* ProgressiveReadingApp.swift */; };
+		EE5FAA2843A72671FBC8527D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DBBF954EEFBBF8453E325 /* LibraryView.swift */; };
+		EFD40988989C108CAC33ACA2 /* WidgetSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889E31F6A594B6BE99BC11F /* WidgetSync.swift */; };
+		F9C08469C90D2190FC8319DC /* ReadingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C813FFFC0205325B2D8ED0D /* ReadingWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF8DE88EB2B63084D020D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ACD7C245BEC856C2657F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9F974168396CBF3BC4726B;
+			remoteInfo = ReadingWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F8505BDB7B0935F6258AB5A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D8915BA1D4F549B0DD16E42 /* ReadingWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B9DBBF954EEFBBF8453E325 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		0F8BE851BD85858457EB3E53 /* ReadingAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingAPIService.swift; sourceTree = "<group>"; };
+		2B2BEB7237DAABFAF0355915 /* ReaderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderCardView.swift; sourceTree = "<group>"; };
+		2C813FFFC0205325B2D8ED0D /* ReadingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingWidget.swift; sourceTree = "<group>"; };
+		472CC645D7AA7AA68E2013E0 /* AdvanceCardIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCardIntent.swift; sourceTree = "<group>"; };
+		47903C2043A416C40E8C095E /* SelectBookIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBookIntent.swift; sourceTree = "<group>"; };
+		4A6B59391AC10CCCE06C1C0F /* ProgressiveReading.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ProgressiveReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3FA4F513F8C4831E6E2C37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FE7BE7AA0E70DA712138FBE /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		83077B0351EFD4FACDE37489 /* RewindCardIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewindCardIntent.swift; sourceTree = "<group>"; };
+		8889E31F6A594B6BE99BC11F /* WidgetSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSync.swift; sourceTree = "<group>"; };
+		A336E130976D334D6604CC4A /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		B351B73997E04BA91C7B3313 /* CardFitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFitter.swift; sourceTree = "<group>"; };
+		BC1C8CD0DF8F68A5E2426683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BCC6EB93ABD31A099CC9900A /* ProgressiveReadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveReadingApp.swift; sourceTree = "<group>"; };
+		E5CCD00B64331394970643E0 /* ReadingWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ReadingWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E104231F9522361FB3C44 /* WidgetCardPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCardPayload.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C7B4F538DE8E749AB22E125 /* ReadingWidget */ = {
+			isa = PBXGroup;
+			children = (
+				472CC645D7AA7AA68E2013E0 /* AdvanceCardIntent.swift */,
+				BC1C8CD0DF8F68A5E2426683 /* Info.plist */,
+				2C813FFFC0205325B2D8ED0D /* ReadingWidget.swift */,
+				83077B0351EFD4FACDE37489 /* RewindCardIntent.swift */,
+				47903C2043A416C40E8C095E /* SelectBookIntent.swift */,
+			);
+			path = ReadingWidget;
+			sourceTree = "<group>";
+		};
+		4D75BFF078F129E91DB38F6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BE7AA0E70DA712138FBE /* BookEntity.swift */,
+				EC1E104231F9522361FB3C44 /* WidgetCardPayload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68B31CD025F75BAE71852154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6B59391AC10CCCE06C1C0F /* ProgressiveReading.app */,
+				E5CCD00B64331394970643E0 /* ReadingWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C0E5241B5B53F050F90C787 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B351B73997E04BA91C7B3313 /* CardFitter.swift */,
+				0F8BE851BD85858457EB3E53 /* ReadingAPIService.swift */,
+				8889E31F6A594B6BE99BC11F /* WidgetSync.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		83F08E2A867DF18C59ADC6FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FA4F513F8C4831E6E2C37 /* ContentView.swift */,
+				0B9DBBF954EEFBBF8453E325 /* LibraryView.swift */,
+				2B2BEB7237DAABFAF0355915 /* ReaderCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF16FDC8894300C87052D0E4 = {
+			isa = PBXGroup;
+			children = (
+				C23543FA35FEF1EF8AC7FF54 /* ProgressiveReading */,
+				2C7B4F538DE8E749AB22E125 /* ReadingWidget */,
+				68B31CD025F75BAE71852154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23543FA35FEF1EF8AC7FF54 /* ProgressiveReading */ = {
+			isa = PBXGroup;
+			children = (
+				A336E130976D334D6604CC4A /* AppIcon.icon */,
+				E5015B935AB8CE5728CD5A31 /* App */,
+				4D75BFF078F129E91DB38F6E /* Models */,
+				7C0E5241B5B53F050F90C787 /* Services */,
+				83F08E2A867DF18C59ADC6FC /* Views */,
+			);
+			path = ProgressiveReading;
+			sourceTree = "<group>";
+		};
+		E5015B935AB8CE5728CD5A31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BCC6EB93ABD31A099CC9900A /* ProgressiveReadingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59DE551406E84813ACAD1FE /* ProgressiveReading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD6F18EA57DFA16BCC8DC74 /* Build configuration list for PBXNativeTarget "ProgressiveReading" */;
+			buildPhases = (
+				A43C2178289D042C92D99CB7 /* Sources */,
+				F89082AF4756C9B2596AE950 /* Resources */,
+				9F8505BDB7B0935F6258AB5A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26788952C7DD6C2EF6F41532 /* PBXTargetDependency */,
+			);
+			name = ProgressiveReading;
+			packageProductDependencies = (
+			);
+			productName = ProgressiveReading;
+			productReference = 4A6B59391AC10CCCE06C1C0F /* ProgressiveReading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE9F974168396CBF3BC4726B /* ReadingWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221F7818E6AAF5A9C93B15B7 /* Build configuration list for PBXNativeTarget "ReadingWidgetExtension" */;
+			buildPhases = (
+				1EE79E048E359FC0D906E50F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadingWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = ReadingWidgetExtension;
+			productReference = E5CCD00B64331394970643E0 /* ReadingWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34ACD7C245BEC856C2657F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B59DE551406E84813ACAD1FE = {
+						DevelopmentTeam = PH9638G866;
+						ProvisioningStyle = Automatic;
+					};
+					FE9F974168396CBF3BC4726B = {
+						DevelopmentTeam = PH9638G866;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8B6AF5326EA4AF531732A45 /* Build configuration list for PBXProject "ProgressiveReading" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AF16FDC8894300C87052D0E4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 68B31CD025F75BAE71852154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59DE551406E84813ACAD1FE /* ProgressiveReading */,
+				FE9F974168396CBF3BC4726B /* ReadingWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89082AF4756C9B2596AE950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2670C79A24528EC8842FCA /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE79E048E359FC0D906E50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655AB463AF4553561CAE8515 /* AdvanceCardIntent.swift in Sources */,
+				B3007590C6F905E6EA66F83F /* BookEntity.swift in Sources */,
+				059BC9541AC7831D162D6162 /* CardFitter.swift in Sources */,
+				D7221DC7644CB459BCA3269C /* ReadingAPIService.swift in Sources */,
+				F9C08469C90D2190FC8319DC /* ReadingWidget.swift in Sources */,
+				2DCFA4B8978F78C0B478F8D9 /* RewindCardIntent.swift in Sources */,
+				6DDFEE9B385044F9CDCEC727 /* SelectBookIntent.swift in Sources */,
+				68B2DC3E37D4FA29A3E02E7D /* WidgetCardPayload.swift in Sources */,
+				73E51BE3DFD90AFB2E4AE4A8 /* WidgetSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43C2178289D042C92D99CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C99DBA3FD14A061C3BD72FE /* BookEntity.swift in Sources */,
+				43A4088DB89CB920A9EAC5AC /* CardFitter.swift in Sources */,
+				6E489B65C5C180BEFFA02010 /* ContentView.swift in Sources */,
+				EE5FAA2843A72671FBC8527D /* LibraryView.swift in Sources */,
+				D7460F63C1536A27C7ADE967 /* ProgressiveReadingApp.swift in Sources */,
+				7334B7E91BE657278FB6DA8F /* ReaderCardView.swift in Sources */,
+				C4E4E92965F64DE3F9918536 /* ReadingAPIService.swift in Sources */,
+				0151BD0C7DACAAF2D72ED652 /* WidgetCardPayload.swift in Sources */,
+				EFD40988989C108CAC33ACA2 /* WidgetSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26788952C7DD6C2EF6F41532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9F974168396CBF3BC4726B /* ReadingWidgetExtension */;
+			targetProxy = DDF8DE88EB2B63084D020D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB862BE40F1647F05EE8E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PH9638G866;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51BA3B2EFDE079FC6E89C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Progressive Reading";
+				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": true]";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustofranke.progressivereading;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C9AC929A91291DA37E4DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadingWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustofranke.progressivereading.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94E2C5003820B14C275F6C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadingWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustofranke.progressivereading.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B96BFEFC61380B5FB830FC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Progressive Reading";
+				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": true]";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustofranke.progressivereading;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A132013BDBA2E376C5CE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PH9638G866;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221F7818E6AAF5A9C93B15B7 /* Build configuration list for PBXNativeTarget "ReadingWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E2C5003820B14C275F6C8F /* Debug */,
+				5C9AC929A91291DA37E4DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8B6AF5326EA4AF531732A45 /* Build configuration list for PBXProject "ProgressiveReading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A132013BDBA2E376C5CE61 /* Debug */,
+				0BB862BE40F1647F05EE8E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD6F18EA57DFA16BCC8DC74 /* Build configuration list for PBXNativeTarget "ProgressiveReading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96BFEFC61380B5FB830FC81 /* Debug */,
+				51BA3B2EFDE079FC6E89C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34ACD7C245BEC856C2657F58 /* Project object */;
+}
