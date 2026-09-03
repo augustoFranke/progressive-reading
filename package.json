@@ -6,6 +6,8 @@
     "ingest": "tsx src/cli.ts",
     "inspect": "tsx src/inspectCli.ts",
     "generate": "tsx src/generateCli.ts",
+    "read": "tsx src/cli/reader.ts",
+    "server": "tsx src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

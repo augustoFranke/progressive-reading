@@ -14,9 +14,42 @@ export interface SourceSpan {
   endAnchor: string;
 }
 
+export interface OutputTarget {
+  minWords: number;
+  targetWords: number;
+  maxWords: number;
+}
+
+export interface QualityJudgeReport {
+  status: "pass" | "review" | "fail";
+  score: number; // 0 to 100
+  voiceFidelityScore: number; // 1 to 5
+  scenePreservationScore: number; // 1 to 5
+  summaryResistanceScore: number; // 1 to 5
+  critique: string[];
+  suggestedImprovements: string[];
+}
+
+export interface QualityJudge {
+  id: string;
+  evaluate(
+    sourceSpan: SourceSpan,
+    rendition: FragmentRendition,
+    context?: ValidationContext,
+  ): Promise<QualityJudgeReport>;
+}
+
+export interface RepairContext {
+  previousRendition: string;
+  failedChecks: ValidationCheck[];
+  judgeCritique?: string[];
+}
+
 export interface GenerationRequest {
   sourceSpan: SourceSpan;
+  outputTarget: OutputTarget;
   previousContinuityNote?: string;
+  repairContext?: RepairContext;
   boundaryReference: {
     lastAllowedSourceAnchor: string;
     nextSourceAnchor?: string;
@@ -69,4 +102,5 @@ export interface GeneratedFragment {
   sourceSpan: SourceSpan;
   rendition: FragmentRendition;
   validation: ValidationReport;
+  judgeReport?: QualityJudgeReport;
 }
